@@ -3,6 +3,10 @@
 ## 📌 Project Overview
 This project analyzes a comprehensive dataset of over 500,000 Indian domestic flight scheduling records. The multi-page Power BI report provides actionable insights into route frequency, hub performance, airline market share, and time-of-day operational trends to understand the dynamics of India's aviation network.
 
+## 📂 Dataset
+The raw dataset used for this analysis is included in this repository: [flights_data.csv](flights_data.csv) 
+*(Original data source: https://www.kaggle.com/datasets/kabil007/indian-domestic-airline-dataset)*
+
 ## 🛠️ Tools & Technologies Used
 * **Power BI:** Data visualization, DAX measure creation, relational data modeling.
 * **Data Cleaning & ETL (Power Query):** Imported the raw dataset (`flights_data.csv`) and performed data transformations directly within Power BI. Steps included standardizing text capitalization, formatting slicer variables, handling missing values, and building a relational model.
